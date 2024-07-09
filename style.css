@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.content{
+    border: 1px solid black;
+    width: 270px;
+    height: 360px;
+    margin: auto;
+    text-align: center;
+    padding-top: 130px;
+    margin-top: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    transition: 0.5s;
+   
+}
+
+
+
+.content:hover{
+    border-radius: 25px;
+    background-color: rgb(161, 208, 250);
+    
+}
+
+.img-fuecoco img{
+    width: 160px;
+    height: 150px;
+    background-color: rgb(216, 230, 241);
+    border-radius: 50%;
+    margin-top: -120px;    
+ 
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  gap: 8px;
+}
+
+
+.linkedin:hover{
+   cursor: pointer;
+}
+.facebook:hover{
+    cursor: pointer;
+}
+.instagram:hover{
+    cursor: pointer;
+}
+
+
+.btn{
+    margin-top: 20px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.ctn:hover{
+    cursor: pointer;
+   width: 118px;
+    background-color: rgb(204, 201, 201);
+}
+
+.abt:hover{
+    cursor: pointer;
+    width: 118px;
+    background-color: rgb(204, 201, 201);
+}
+
+.ctn{
+    width: 110px;
+    height: 40px;
+    border-radius: 14px;
+    transition:0.5s;
+}
+.abt{
+    width: 110px;
+    height: 40px;
+    border-radius: 14px;
+    transition:0.5s;
+}
